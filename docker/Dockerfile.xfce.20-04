@@ -355,6 +355,7 @@ COPY ./src/tests "${HOME}"/tests/
 COPY ./xfce/src/home/config "${HOME}"/.config/
 COPY ./xfce/src/home/Desktop "${HOME}"/Desktop/
 COPY ./xfce/src/home/readme*.md "${HOME}"/
+COPY ./xfce/wallpaper.svg /usr/share/backgrounds/xfce/
 
 ### Note that the line 'chmod 666 /etc/passwd /etc/group' sets the "softer" permissions only temporary.
 ### It allows the user generator startup script to configure the user and the group correctly.
